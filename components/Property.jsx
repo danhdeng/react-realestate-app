@@ -9,7 +9,6 @@ import { GoVerified } from 'react-icons/go';
 import DefaultImage from '../assets/images/house.jpg';
 import millify from 'millify';
 export const Property = ({ property }) => {
-  console.log(property);
   const {
     coverPhoto,
     price,

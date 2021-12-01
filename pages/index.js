@@ -6,7 +6,6 @@ import { fetchApi, baseUrl } from '../utils/fetchApi';
 import { Property } from '../components/Property';
 
 export default function Home({ propertiesForRent, propertiesForSale }) {
-  console.log(propertiesForRent, propertiesForSale);
   return (
     <div>
       <Banner
