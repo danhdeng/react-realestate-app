@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css';
 import { Flex, Box, Text, Button } from '@chakra-ui/react';
 import { Banner } from './Banner';
 import { fetchApi, baseUrl } from '../utils/fetchApi';
-import { Property } from './property/[id]';
+import { Property } from '../components/Property';
 
 export default function Home({ propertiesForRent, propertiesForSale }) {
   console.log(propertiesForRent, propertiesForSale);
