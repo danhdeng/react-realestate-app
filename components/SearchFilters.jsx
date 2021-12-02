@@ -19,6 +19,7 @@ export const SearchFilters = () => {
   const router = useRouter();
 
   const searchProperties = (filterValues) => {
+    console.log(filterValues);
     const path = router.pathname;
     const { query } = router;
     const values = getFilterValues(filterValues);
