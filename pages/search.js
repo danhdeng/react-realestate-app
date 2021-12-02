@@ -6,7 +6,7 @@ import { BsFilter } from 'react-icons/bs';
 import { SearchFilters } from '../components/SearchFilters';
 import NoResultImg from '../assets/images/noresult.svg';
 import { FaRulerHorizontal } from 'react-icons/fa';
-import { Property } from '../components/Property';
+import Property from '../components/Property';
 import { baseUrl, fetchApi } from '../utils/fetchApi';
 
 export default function Search({ properties }) {

@@ -8,7 +8,8 @@ import { BsGridFill } from 'react-icons/bs';
 import { GoVerified } from 'react-icons/go';
 import DefaultImage from '../assets/images/house.jpg';
 import millify from 'millify';
-export const Property = ({ property }) => {
+
+export default function Property({ property }) {
   const {
     coverPhoto,
     price,
@@ -80,4 +81,4 @@ export const Property = ({ property }) => {
       </Flex>
     </Link>
   );
-};
+}
