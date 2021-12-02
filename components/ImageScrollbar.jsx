@@ -43,7 +43,7 @@ export const ImageScrollbar = ({ data }) => {
       {data.map((item) => (
         <Box
           width="910px"
-          itemId={item.id}
+          itemID={item.id}
           key={item.id}
           overflow="hidden"
           p="1"
